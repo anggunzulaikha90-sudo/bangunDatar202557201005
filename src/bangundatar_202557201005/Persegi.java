@@ -43,7 +43,7 @@ public class Persegi extends javax.swing.JFrame {
         btnReset = new javax.swing.JButton();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
-        setTitle("Segitiga");
+        setTitle("Persegi");
         setBackground(new java.awt.Color(138, 166, 132));
 
         jLabel1.setFont(new java.awt.Font("Ink Free", 1, 24)); // NOI18N
