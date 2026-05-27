@@ -20,8 +20,8 @@ public class belahKetupat extends javax.swing.JFrame {
         reset();
     }
     void reset(){
-        tDiameter1.setText(null);
-        tDiameter2.setText(null);
+        tDiagonal1.setText(null);
+        tDiagonal2.setText(null);
         tLuas.setText(null);
     }
     /**
@@ -38,8 +38,8 @@ public class belahKetupat extends javax.swing.JFrame {
         jPanel1 = new javax.swing.JPanel();
         jLabel2 = new javax.swing.JLabel();
         jLabel3 = new javax.swing.JLabel();
-        tDiameter1 = new javax.swing.JTextField();
-        tDiameter2 = new javax.swing.JTextField();
+        tDiagonal1 = new javax.swing.JTextField();
+        tDiagonal2 = new javax.swing.JTextField();
         jPanel2 = new javax.swing.JPanel();
         tLuas = new javax.swing.JLabel();
         btnHitung = new javax.swing.JButton();
@@ -71,17 +71,17 @@ public class belahKetupat extends javax.swing.JFrame {
         jLabel3.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel3.setText("Diagonal 2");
 
-        tDiameter1.setBackground(new java.awt.Color(248, 247, 244));
-        tDiameter1.addActionListener(new java.awt.event.ActionListener() {
+        tDiagonal1.setBackground(new java.awt.Color(248, 247, 244));
+        tDiagonal1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                tDiameter1ActionPerformed(evt);
+                tDiagonal1ActionPerformed(evt);
             }
         });
 
-        tDiameter2.setBackground(new java.awt.Color(248, 247, 244));
-        tDiameter2.addActionListener(new java.awt.event.ActionListener() {
+        tDiagonal2.setBackground(new java.awt.Color(248, 247, 244));
+        tDiagonal2.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                tDiameter2ActionPerformed(evt);
+                tDiagonal2ActionPerformed(evt);
             }
         });
 
@@ -96,8 +96,8 @@ public class belahKetupat extends javax.swing.JFrame {
                     .addComponent(jLabel3, javax.swing.GroupLayout.Alignment.TRAILING))
                 .addGap(18, 18, 18)
                 .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(tDiameter1, javax.swing.GroupLayout.PREFERRED_SIZE, 222, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(tDiameter2, javax.swing.GroupLayout.PREFERRED_SIZE, 222, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addComponent(tDiagonal1, javax.swing.GroupLayout.PREFERRED_SIZE, 222, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(tDiagonal2, javax.swing.GroupLayout.PREFERRED_SIZE, 222, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addGap(14, 14, 14))
         );
         jPanel1Layout.setVerticalGroup(
@@ -106,10 +106,10 @@ public class belahKetupat extends javax.swing.JFrame {
                 .addGap(12, 12, 12)
                 .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(jLabel2)
-                    .addComponent(tDiameter1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addComponent(tDiagonal1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addGap(18, 18, 18)
                 .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(tDiameter2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(tDiagonal2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(jLabel3))
                 .addContainerGap(23, Short.MAX_VALUE))
         );
@@ -204,9 +204,9 @@ public class belahKetupat extends javax.swing.JFrame {
         new beranda().setVisible(true);
     }//GEN-LAST:event_btnKembaliActionPerformed
 
-    private void tDiameter2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_tDiameter2ActionPerformed
+    private void tDiagonal2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_tDiagonal2ActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_tDiameter2ActionPerformed
+    }//GEN-LAST:event_tDiagonal2ActionPerformed
 
     private void btnResetActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnResetActionPerformed
         // TODO add your handling code here:
@@ -215,15 +215,15 @@ public class belahKetupat extends javax.swing.JFrame {
 
     private void btnHitungActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnHitungActionPerformed
         // TODO add your handling code here:
-        double diameter1 = Double.parseDouble(tDiameter1.getText());
-        double diameter2 = Double.parseDouble(tDiameter2.getText());
-        double luas = 0.5 * diameter1 * diameter2;
+        double diagonal1 = Double.parseDouble(tDiagonal1.getText());
+        double diagonal2 = Double.parseDouble(tDiagonal2.getText());
+        double luas = 0.5 * diagonal1 * diagonal2;
         tLuas.setText(String.valueOf(luas));
     }//GEN-LAST:event_btnHitungActionPerformed
 
-    private void tDiameter1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_tDiameter1ActionPerformed
+    private void tDiagonal1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_tDiagonal1ActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_tDiameter1ActionPerformed
+    }//GEN-LAST:event_tDiagonal1ActionPerformed
 
     /**
      * @param args the command line arguments
@@ -259,8 +259,8 @@ public class belahKetupat extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel3;
     private javax.swing.JPanel jPanel1;
     private javax.swing.JPanel jPanel2;
-    private javax.swing.JTextField tDiameter1;
-    private javax.swing.JTextField tDiameter2;
+    private javax.swing.JTextField tDiagonal1;
+    private javax.swing.JTextField tDiagonal2;
     private javax.swing.JLabel tLuas;
     // End of variables declaration//GEN-END:variables
 }

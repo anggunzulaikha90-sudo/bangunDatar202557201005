@@ -116,8 +116,8 @@
                   </Group>
                   <EmptySpace type="separate" max="-2" attributes="0"/>
                   <Group type="103" groupAlignment="0" attributes="0">
-                      <Component id="tDiameter1" min="-2" pref="222" max="-2" attributes="0"/>
-                      <Component id="tDiameter2" min="-2" pref="222" max="-2" attributes="0"/>
+                      <Component id="tDiagonal1" min="-2" pref="222" max="-2" attributes="0"/>
+                      <Component id="tDiagonal2" min="-2" pref="222" max="-2" attributes="0"/>
                   </Group>
                   <EmptySpace min="-2" pref="14" max="-2" attributes="0"/>
               </Group>
@@ -129,11 +129,11 @@
                   <EmptySpace min="-2" pref="12" max="-2" attributes="0"/>
                   <Group type="103" groupAlignment="3" attributes="0">
                       <Component id="jLabel2" alignment="3" min="-2" max="-2" attributes="0"/>
-                      <Component id="tDiameter1" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="tDiagonal1" alignment="3" min="-2" max="-2" attributes="0"/>
                   </Group>
                   <EmptySpace type="separate" max="-2" attributes="0"/>
                   <Group type="103" groupAlignment="3" attributes="0">
-                      <Component id="tDiameter2" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="tDiagonal2" alignment="3" min="-2" max="-2" attributes="0"/>
                       <Component id="jLabel3" alignment="3" min="-2" max="-2" attributes="0"/>
                   </Group>
                   <EmptySpace pref="23" max="32767" attributes="0"/>
@@ -154,24 +154,24 @@
             <Property name="text" type="java.lang.String" value="Diagonal 2"/>
           </Properties>
         </Component>
-        <Component class="javax.swing.JTextField" name="tDiameter1">
+        <Component class="javax.swing.JTextField" name="tDiagonal1">
           <Properties>
             <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
               <Color blue="f4" green="f7" red="f8" type="rgb"/>
             </Property>
           </Properties>
           <Events>
-            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="tDiameter1ActionPerformed"/>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="tDiagonal1ActionPerformed"/>
           </Events>
         </Component>
-        <Component class="javax.swing.JTextField" name="tDiameter2">
+        <Component class="javax.swing.JTextField" name="tDiagonal2">
           <Properties>
             <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
               <Color blue="f4" green="f7" red="f8" type="rgb"/>
             </Property>
           </Properties>
           <Events>
-            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="tDiameter2ActionPerformed"/>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="tDiagonal2ActionPerformed"/>
           </Events>
         </Component>
       </SubComponents>
