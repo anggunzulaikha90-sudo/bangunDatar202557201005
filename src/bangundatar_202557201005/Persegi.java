@@ -13,7 +13,7 @@ public class Persegi extends javax.swing.JFrame {
     private static final java.util.logging.Logger logger = java.util.logging.Logger.getLogger(Persegi.class.getName());
 
     /**
-     * Creates new form segitiga
+     * Creates new form Persegi
      */
     public Persegi() {
         initComponents();

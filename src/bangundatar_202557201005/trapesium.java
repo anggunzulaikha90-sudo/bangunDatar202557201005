@@ -13,7 +13,7 @@ public class trapesium extends javax.swing.JFrame {
     private static final java.util.logging.Logger logger = java.util.logging.Logger.getLogger(trapesium.class.getName());
 
     /**
-     * Creates new form segitiga
+     * Creates new form trapesium
      */
     public trapesium() {
         initComponents();

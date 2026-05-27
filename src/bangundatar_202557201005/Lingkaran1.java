@@ -13,7 +13,7 @@ public class Lingkaran1 extends javax.swing.JFrame {
     private static final java.util.logging.Logger logger = java.util.logging.Logger.getLogger(Lingkaran1.class.getName());
 
     /**
-     * Creates new form segitiga
+     * Creates new form Lingkaran1
      */
     public Lingkaran1() {
         initComponents();

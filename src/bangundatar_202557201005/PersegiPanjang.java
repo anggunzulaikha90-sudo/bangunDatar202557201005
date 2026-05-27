@@ -13,7 +13,7 @@ public class PersegiPanjang extends javax.swing.JFrame {
     private static final java.util.logging.Logger logger = java.util.logging.Logger.getLogger(PersegiPanjang.class.getName());
 
     /**
-     * Creates new form segitiga
+     * Creates new form PersegiPanjang
      */
     public PersegiPanjang() {
         initComponents();
